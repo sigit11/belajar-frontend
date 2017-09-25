@@ -1,1 +1,122 @@
-style.css
+#header-section{
+	background-color: #4676fa;
+	padding-top: 220px;
+	padding-bottom: 100px;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+
+.h1-header{
+	color: white;
+}
+.h2-header{
+	color: white;
+}
+#feature-section{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: : #fff;
+}
+.section-header{
+	text-align: center;
+}
+#service-section{
+	background-color: #F2F2F2;
+	padding-top: 80px;
+	padding-bottom: 80px;
+
+}
+.service-header{
+	text-align: center;
+}
+.feature-header{
+	text-align: center;
+}
+#video-section{
+	background-color: #4676fa;
+	color: white;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+#works-section{
+	background-color: #F2F2F2;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.work-section{
+	text-align: center;
+}
+#pricing-section{
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: : #fff;
+}
+.judul{
+	text-align: center;
+}
+#marketing-section{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: : #fff;
+}
+#download-section{
+	text-align: center;
+	color: white;
+	background: #333;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+#team-section{
+	text-align: center;
+	background-color: : #fff;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+#follow-section{
+	background-color: #4676fa;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+#clients{
+	background-color: #F2F2F2;
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+#blogs-section{
+	background-color: #fff;
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+.blogs-section{
+	text-align: center;
+}
+#contact-section{
+	background-color: #F2F2F2;
+	padding-bottom: 80px;
+	padding-top: 80px;;
+}
+.contact-us{
+	text-align: center;
+}
+#subcribe-section{
+	text-align: center;
+	background-color: #fff;
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+#footer-section{
+	text-align: center;
+	color: white;
+	background: #333;
+	font-size: 14px;
+	font-weight: 400;
+	padding-top: 60px;
+	padding-left: 0px 
+	padding-bottom: 30px;
+	padding-right: 0px;
+}
+
