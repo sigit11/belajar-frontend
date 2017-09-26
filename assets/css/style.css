@@ -1,10 +1,14 @@
-#header-section{
+ body {
+	position: relative;
+}
+#home{
 	background-color: #4676fa;
 	padding-top: 220px;
 	padding-bottom: 100px;
 }
 .navbar{
 	margin-bottom: 0px;
+	
 }
 
 .h1-header{
@@ -13,7 +17,7 @@
 .h2-header{
 	color: white;
 }
-#feature-section{
+#feature{
 	padding-top: 80px;
 	padding-bottom: 80px;
 	background-color: : #fff;
@@ -21,7 +25,7 @@
 .section-header{
 	text-align: center;
 }
-#service-section{
+#service{
 	background-color: #F2F2F2;
 	padding-top: 80px;
 	padding-bottom: 80px;
@@ -40,7 +44,7 @@
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
-#works-section{
+#works{
 	background-color: #F2F2F2;
 	padding-top: 80px;
 	padding-bottom: 80px;
@@ -48,7 +52,7 @@
 .work-section{
 	text-align: center;
 }
-#pricing-section{
+#pricing{
 	text-align: center;
 	padding-top: 80px;
 	padding-bottom: 80px;
@@ -62,14 +66,29 @@
 	padding-bottom: 80px;
 	background-color: : #fff;
 }
+
+.parallax{
+    /* The image used */
+    background-image: url("/belajar-frontend/assets/images/gdgparallax.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #download-section{
 	text-align: center;
-	color: white;
-	background: #333;
+	/*color: white;
+	background: #333;*/
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
-#team-section{
+
+#team{
 	text-align: center;
 	background-color: : #fff;
 	padding-top: 80px;
@@ -86,7 +105,7 @@
 	padding-bottom: 80px;
 	padding-top: 80px;
 }
-#blogs-section{
+#blogs{
 	background-color: #fff;
 	padding-bottom: 80px;
 	padding-top: 80px;
@@ -94,7 +113,7 @@
 .blogs-section{
 	text-align: center;
 }
-#contact-section{
+#contact{
 	background-color: #F2F2F2;
 	padding-bottom: 80px;
 	padding-top: 80px;;
@@ -102,7 +121,7 @@
 .contact-us{
 	text-align: center;
 }
-#subcribe-section{
+#subcribe{
 	text-align: center;
 	background-color: #fff;
 	padding-bottom: 80px;
@@ -112,11 +131,7 @@
 	text-align: center;
 	color: white;
 	background: #333;
-	font-size: 14px;
-	font-weight: 400;
-	padding-top: 60px;
-	padding-left: 0px 
-	padding-bottom: 30px;
-	padding-right: 0px;
+	padding-bottom: 80px;
+	padding-top: 80px;
 }
 
