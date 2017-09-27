@@ -5,20 +5,29 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
 });
 
 
-$(document).on('click', 'a', function(event){
-    event.preventDefault();
+$(document).ready(function(){
 
-    $('html, body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 500);
+    $(".filter-button").click(function(){
+        var value = $(this).attr('data-filter');
+        
+        if(value == "all")
+        {
+            //$('.filter').removeClass('hidden');
+            $('.filter').show('1000');
+        }
+        else
+        {
+//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+            $(".filter").not('.'+value).hide('3000');
+            $('.filter').filter('.'+value).show('3000');
+            
+        }
+    });
+    
+    if ($(".filter-button").removeClass("active")) {
+$(this).removeClass("active");
+}
+$(this).addClass("active");
+
 });
-
-// var jumboHeight = $('.download-section').outerHeight();
-// function parallax(){
-//     var scrolled = $(window).scrollTop();
-//     $('.bg-1').css('height', (jumboHeight-scrolled) + 'px');
-// }
-
-// $(window).scroll(function(e){
-//     parallax();
-// });
